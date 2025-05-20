@@ -258,14 +258,6 @@ export const hiraganaSokuon = [
   ],
 
   [
-    { character: "っや", romaji: "yya", startTime: 38.5, endTime: 39.5 },
-    { character: null, romaji: null },
-    { character: "っゆ", romaji: "yyu", startTime: 39.5, endTime: 40.5 },
-    { character: null, romaji: null },
-    { character: "っよ", romaji: "yyo", startTime: 40.5, endTime: 41.5 },
-  ],
-
-  [
     { character: "っら", romaji: "rra", startTime: 42.5, endTime: 43.5 },
     { character: "っり", romaji: "rri", startTime: 43.5, endTime: 44.5 },
     { character: "っる", romaji: "rru", startTime: 44.5, endTime: 45.5 },
@@ -424,14 +416,6 @@ export const katakanaSokuon = [
   ],
 
   [
-    { character: "ッヤ", romaji: "yya", startTime: 38.5, endTime: 39.5 },
-    { character: null, romaji: null },
-    { character: "ッユ", romaji: "yyu", startTime: 39.5, endTime: 40.5 },
-    { character: null, romaji: null },
-    { character: "ッヨ", romaji: "yyo", startTime: 40.5, endTime: 41.5 },
-  ],
-
-  [
     { character: "ッワ", romaji: "wwa", startTime: 48, endTime: 49 },
     { character: null, romaji: null },
     { character: null, romaji: null },
@@ -551,15 +535,9 @@ export const katakanaYoon = [
 ];
 
 export const katakanaForeign = [
-  [
-    { character: "ティ", romaji: "ti", startTime: 0.001, endTime: 0.35 },
-    { character: "テュ", romaji: "tyu", startTime: 0.6, endTime: 1.5 },
-  ],
+  [{ character: "ティ", romaji: "ti", startTime: 0.001, endTime: 0.35 }],
 
-  [
-    { character: "ディ", romaji: "di", startTime: 1.5, endTime: 2 },
-    { character: "ドゥ", romaji: "du", startTime: 2, endTime: 3 },
-  ],
+  [{ character: "ディ", romaji: "di", startTime: 1.5, endTime: 2 }],
 
   [
     { character: "ファ", romaji: "fa", startTime: 3, endTime: 3.5 },
@@ -575,9 +553,9 @@ export const katakanaForeign = [
   ],
 
   [
-    { character: "ヴ", romaji: "vu", startTime: 7.75, endTime: 8.5 },
     { character: "ヴァ", romaji: "va", startTime: 8.5, endTime: 9 },
     { character: "ヴィ", romaji: "vi", startTime: 9, endTime: 9.5 },
+    { character: "ヴ", romaji: "vu", startTime: 7.75, endTime: 8.5 },
     { character: "ヴェ", romaji: "ve", startTime: 9.5, endTime: 10.25 },
     { character: "ヴォ", romaji: "vo", startTime: 10.25, endTime: 11 },
   ],
@@ -609,9 +587,9 @@ export const katakanaForeign = [
   ],
 
   [
-    { character: "フャ", romaji: "fya", startTime: 22, endTime: 22.75 },
+    { character: null, romaji: null },
     { character: "フュ", romaji: "fyu", startTime: 22.75, endTime: 23.5 },
-    { character: "フョ", romaji: "fyo", startTime: 23.5, endTime: 24.5 },
+    { character: null, romaji: null },
   ],
 ];
 
