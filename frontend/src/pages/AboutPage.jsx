@@ -24,7 +24,7 @@ const AboutPage = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            About Me
+            About
           </motion.h1>
 
           <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
@@ -57,10 +57,6 @@ const AboutPage = () => {
               <h2 className="text-2xl font-bold mb-4 text-[var(--color-card-foreground)]">
                 Abdelrahman Athamneh
               </h2>
-              <p className="text-[var(--color-muted)] mb-4">
-                <RomajiText text="こんにちは！" /> Hello! I'm Abdelrahman, a
-                passionate language learner and developer.
-              </p>
               <motion.a
                 href="https://github.com/AbdelrahmanAthamneh"
                 target="_blank"
@@ -73,43 +69,6 @@ const AboutPage = () => {
                 GitHub Profile
               </motion.a>
             </motion.div>
-          </div>
-
-          <div className="space-y-6">
-            <motion.section
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.5 }}
-            >
-              <h3 className="text-xl font-bold mb-3 text-[var(--color-card-foreground)]">
-                Why I Created This App
-              </h3>
-              <p className="text-[var(--color-muted)]">
-                As someone who is learning Japanese, I found that having a
-                personalized vocabulary builder would be incredibly helpful. I
-                wanted a tool that would allow me to track my progress, review
-                words I've learned, and practice kana characters all in one
-                place.
-              </p>
-            </motion.section>
-
-            <motion.section
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.8 }}
-            >
-              <h3 className="text-xl font-bold mb-3 text-[var(--color-card-foreground)]">
-                Get in Touch
-              </h3>
-              <p className="text-[var(--color-muted)]">
-                I'd love to hear your feedback and suggestions for improving
-                this app. Feel free to reach out to me on GitHub!
-              </p>
-              <p className="text-[var(--color-muted)] mt-4">
-                <RomajiText text="ありがとうございます！" /> Thank you for using
-                my app!
-              </p>
-            </motion.section>
           </div>
         </div>
       </motion.div>
